@@ -8,6 +8,8 @@
   "files": [
     "dist"
   ],
+  "repository": "https://github.com/gdevsuper/pancake-uikit-module",
+  "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
     "build": "del dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
