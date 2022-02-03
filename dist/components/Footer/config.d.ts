@@ -9,10 +9,10 @@ export declare const socials: ({
 } | {
     label: string;
     icon: string;
+    href: string;
     items: {
         label: string;
         href: string;
     }[];
-    href?: undefined;
 })[];
 export declare const langs: Language[];

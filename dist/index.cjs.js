@@ -4756,17 +4756,28 @@ var BottomNav = function (_a) {
 
 var socials = [
     {
+        label: "Facebook",
+        icon: "Facebook",
+        href: "https://www.facebook.com/Digitalatto-107486488347349",
+    },
+    {
         label: "Twitter",
         icon: "Twitter",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://twitter.com/DigitalattoDGTL",
+    },
+    {
+        label: "Instagram",
+        icon: "Instagram",
+        href: "https://www.instagram.com/digitalatto_dgtl/",
     },
     {
         label: "Telegram",
         icon: "Telegram",
+        href: "https://t.me/digitalatto",
         items: [
             {
                 label: "English",
-                href: "https://t.me/pancakeswap",
+                href: "https://t.me/digitalatto",
             },
             {
                 label: "Bahasa Indonesia",
@@ -4829,22 +4840,7 @@ var socials = [
     {
         label: "Reddit",
         icon: "Reddit",
-        href: "https://reddit.com/r/pancakeswap",
-    },
-    {
-        label: "Instagram",
-        icon: "Instagram",
-        href: "https://instagram.com/pancakeswap_official",
-    },
-    {
-        label: "Github",
-        icon: "Github",
-        href: "https://github.com/pancakeswap/",
-    },
-    {
-        label: "Discord",
-        icon: "Discord",
-        href: "https://discord.gg/pancakeswap",
+        href: "https://reddit.com/user/digitalatto",
     },
 ];
 __spreadArray([], Array(20)).map(function (_, i) { return ({
@@ -4931,7 +4927,7 @@ var MenuItem = function (_a) {
                 React__default['default'].createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default['default'].createElement(Box, { mr: "20px" },
                         React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default['default'].createElement(Button, { as: "a", href: "https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank", scale: "sm", endIcon: React__default['default'].createElement(Icon$29, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default['default'].createElement(Button, { as: "a", href: "https://dgtl-pancake.vercel.app/swap?outputCurrency=0x210ab9b551e81b7ca2979b06bb64eb4e774b360b", target: "_blank", scale: "sm", endIcon: React__default['default'].createElement(Icon$29, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
